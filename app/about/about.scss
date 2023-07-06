@@ -1,0 +1,44 @@
+.about {
+  .img_container {
+    height: 15rem;
+    width: 100%;
+    position: relative;
+    padding-top: 2rem;
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      filter: grayscale(100%);
+    }
+    .imgText {
+      position: absolute;
+      bottom: 1rem;
+      left: 1rem;
+      padding: 0.5rem 1rem;
+      .imgTitle {
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+      .imgDesc {
+        font-size: 1.2rem;
+        font-weight: bold;
+      }
+    }
+  }
+  .textContainer {
+    display: flex;
+    gap: 5rem;
+    margin: 3rem 0 2rem 0rem;
+
+    .title {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    .contact_button {
+      padding: 0.5rem 1rem;
+      background-color: lightgreen;
+      margin-top: 2rem;
+      border-radius: 0.5rem;
+    }
+  }
+}

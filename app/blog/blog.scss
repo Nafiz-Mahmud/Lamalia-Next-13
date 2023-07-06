@@ -1,0 +1,15 @@
+.blogs {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  .blog {
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+  }
+  .img {
+    flex: 1;
+  }
+  .info {
+    flex: 3;
+  }
+}

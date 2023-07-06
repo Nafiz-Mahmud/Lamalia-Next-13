@@ -1,0 +1,22 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .logo {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  .links {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  .log {
+    cursor: pointer;
+    background-color: skyblue;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    border: none;
+    font-weight: bold;
+  }
+}
